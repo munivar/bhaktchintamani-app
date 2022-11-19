@@ -1,6 +1,6 @@
 import 'package:bhaktchintamani/pages/FavoriteScreen.dart';
 import 'package:bhaktchintamani/pages/HomeScreen.dart';
-import 'package:bhaktchintamani/pages/NavigationDrawer.dart';
+import 'package:bhaktchintamani/pages/NaviDrawer.dart';
 import 'package:bhaktchintamani/pages/SettingsScreen.dart';
 import 'package:bhaktchintamani/utils/Colors.dart';
 import 'package:bhaktchintamani/utils/Constants.dart';
@@ -108,7 +108,7 @@ class _PrakaranDetailsScreenState extends State<PrakaranDetailsScreen> {
               });
             }
           },
-          endDrawer: NavigationDrawer(),
+          endDrawer: NaviDrawer(),
           floatingActionButton: Container(
             height: 60,
             color: Colors.white,

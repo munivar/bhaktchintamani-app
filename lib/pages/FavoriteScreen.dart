@@ -1,5 +1,5 @@
 import 'package:bhaktchintamani/pages/HomeScreen.dart';
-import 'package:bhaktchintamani/pages/NavigationDrawer.dart';
+import 'package:bhaktchintamani/pages/NaviDrawer.dart';
 import 'package:bhaktchintamani/pages/PrakaranDetailsScreen.dart';
 import 'package:bhaktchintamani/pages/SettingsScreen.dart';
 import 'package:bhaktchintamani/utils/Colors.dart';
@@ -108,7 +108,7 @@ class _FavoriteScreenState extends State<FavoriteScreen> {
               });
             }
           },
-          endDrawer: NavigationDrawer(),
+          endDrawer: NaviDrawer(),
           floatingActionButton: Container(
             height: 60,
             color: Colors.white,

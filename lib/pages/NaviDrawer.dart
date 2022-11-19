@@ -6,14 +6,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class NavigationDrawer extends StatefulWidget {
-  NavigationDrawer({super.key});
+class NaviDrawer extends StatefulWidget {
+  NaviDrawer({super.key});
 
   @override
-  State<NavigationDrawer> createState() => _NavigationDrawerState();
+  State<NaviDrawer> createState() => _NaviDrawerState();
 }
 
-class _NavigationDrawerState extends State<NavigationDrawer> {
+class _NaviDrawerState extends State<NaviDrawer> {
   SharedPreferences? shredPreferences;
   int? defaultColor;
   bool? shredLoading;

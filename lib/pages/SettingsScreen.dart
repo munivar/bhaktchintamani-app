@@ -1,6 +1,6 @@
 import 'package:bhaktchintamani/pages/FavoriteScreen.dart';
 import 'package:bhaktchintamani/pages/HomeScreen.dart';
-import 'package:bhaktchintamani/pages/NavigationDrawer.dart';
+import 'package:bhaktchintamani/pages/NaviDrawer.dart';
 import 'package:bhaktchintamani/utils/Colors.dart';
 import 'package:bhaktchintamani/utils/Constants.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +60,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               });
             }
           },
-          endDrawer: NavigationDrawer(),
+          endDrawer: NaviDrawer(),
           appBar: AppBar(
             backgroundColor: const Color(0xffFAFAFA),
             elevation: 0,
